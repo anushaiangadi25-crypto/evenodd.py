@@ -1,7 +1,6 @@
-from even_odd import even_odd
-
+from even_odd import is_even
 def test_even():
-    assert even_odd(10)=="Even number"
+    assert is_even(10)=="Even number"
 
 def test_odd():
-    assert even_odd(13)=="Odd number"
+    assert is_even(13)=="Odd number"
