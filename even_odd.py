@@ -1,7 +1,7 @@
 def is_even(a):
     if a%2==0:
-        return("Even")
+        return("Even number")
     else:
-        return("Odd")
+        return("Odd number")
     print(is_even(12))
     
