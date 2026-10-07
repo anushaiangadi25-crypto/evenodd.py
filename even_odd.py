@@ -1,6 +1,7 @@
-def is_even(number):
+def is_even(a):
+    if a%2==0:
+        return("Even")
+    else:
+        return("Odd")
+    print(is_even(12))
     
-    return "Even" if number % 2 == 0 else "Odd"
-
-print(is_even(7))  
-print(is_even(10)) 
